@@ -1,17 +1,17 @@
 # Curso-HTML-e-CSS
  Repositório de todo o conteúdo apresentado no curso de html5 e css3 do CursoemVideo 
 
-Desafios:
-Número 001: <a href="Curso-HTML-e-CSS/desafios/d001/index.html">Clique aqui</a><br>
-Número 002: <a href="Curso-HTML-e-CSS/desafios/d002/index.html">Clique aqui</a><br>
-Número 003: <a href="Curso-HTML-e-CSS/desafios/d003/index.html">Clique aqui</a><br>
-Número 004: <a href="Curso-HTML-e-CSS/desafios/d004/index.html">Clique aqui</a><br>
-Número 005: <a href="Curso-HTML-e-CSS/desafios/d005/index.html">Clique aqui</a><br>
-Número 006: <a href="Curso-HTML-e-CSS/desafios/d006/index.html">Clique aqui</a><br>
-Número 007: <a href="Curso-HTML-e-CSS/desafios/d007/index.html">Clique aqui</a><br>
-Número 008: <a href="Curso-HTML-e-CSS/desafios/d008/index.html">Clique aqui</a><br>
-Número 009: <a href="Curso-HTML-e-CSS/desafios/d009/index.html">Clique aqui</a><br>
-Número 010: <a href="Curso-HTML-e-CSS/desafios/d010/index.html">Clique aqui</a><br>
+Desafios:<br>
+Número 001: <a href="/desafios/d001/index.html">Clique aqui</a><br>
+Número 002: <a href="/desafios/d002/index.html">Clique aqui</a><br>
+Número 003: <a href="/desafios/d003/index.html">Clique aqui</a><br>
+Número 004: <a href="/desafios/d004/index.html">Clique aqui</a><br>
+Número 005: <a href="/desafios/d005/index.html">Clique aqui</a><br>
+Número 006: <a href="/desafios/d006/index.html">Clique aqui</a><br>
+Número 007: <a href="/desafios/d007/index.html">Clique aqui</a><br>
+Número 008: <a href="/desafios/d008/index.html">Clique aqui</a><br>
+Número 009: <a href="/desafios/d009/index.html">Clique aqui</a><br>
+Número 010: <a href="/desafios/d010/index.html">Clique aqui</a><br>
 
 
 Exercícios:<br>
