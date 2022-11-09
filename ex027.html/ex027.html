@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando tags semanticas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #adb6e6 , #ade6e3 );
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 7px;
+            border: solid black 1px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        nav > h1{
+            margin-left: 150px;
+            display: inline;
+            box-shadow: inset 0px -20px 20px rgba(0, 0, 0, 0.192);
+        }
+        nav{
+            display: inline ;
+        }
+        section > p{
+            text-indent: 30px;
+            text-align: justify;
+        }
+        section{
+            background-color: white;
+            border-radius: 20px 20px 0px 0px;
+            padding: 10px;
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            box-shadow: inset 0px -20px 20px rgba(0, 0, 0, 0.466);
+        }
+        mark{
+            background-color: #676d92;
+        }
+        main > h1{
+            text-align: center;
+        }
+        footer > p{
+            text-align: center;
+        }
+        footer > div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <h1>Aqui temos um h1 dentro de uma tag header, tazendo semantica á página</h1>
+            <hr>
+        </nav>
+    </header>
+    <main>
+        <h1>Usando sombras com auxílio do devtools e vértices arredondadas</h1>
+        <article>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sit, earum omnis repellat quod velit deleniti neque non dolorum, architecto quasi odit cumque itaque dolores sapiente aliquam eveniet, debitis quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. <mark>Provident, quae hic ipsum voluptatem sapiente harum quod recusandae consequatur nisi ullam ut magni illum fuga ad architecto ab qui molestias soluta!</mark> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cumque error temporibus odit, dignissimos accusantium, ipsum mollitia fugiat debitis, impedit odio quo vel sit ipsam repudiandae reprehenderit alias explicabo itaque.
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem deserunt iure autem quibusdam dolor facere exercitationem quas, rem sed tempora asperiores. Ipsam veritatis numquam dolorum magnam qui nihil doloribus?</p>
+            </section>
+        </article>
+    </main>
+    <!-- <footer>&copy; Guilherme</footer> -->
+    <footer>
+        <div id="bola">
+            <p>&copy; Guilherme</p>
+        </div>
+    </footer>
+</body>
+</html>

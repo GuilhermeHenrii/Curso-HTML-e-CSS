@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando font face</title>
+    <style>
+        @font-face {
+            font-family: 'lemon milk bold';
+            src: local("LEMONMILK-Bold") url(./fonts/LEMONMILK-Bold.otf) format(opentype);
+            font-weight: bold;
+        }
+        /* Usando o 'local()' verifica primeiro se o usuario possui a fonte antes de baixá-la */
+        @font-face {
+            font-family: 'lemon milk bold italic';
+            src: local("LEMONMILK-BoldItalic") url(./fonts/LEMONMILK-BoldItalic.otf) format(opentype);
+            font-weight: bold;
+            font-style: italic;
+        }
+        #para1, h1{
+            font-family: 'lemon milk bold';
+            font-weight: bold;
+            font-size: 2em;
+        }
+        #para2,h2{
+            font-family: 'lemon milk bold italic';
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando fontes externas com o @font-face</h1>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptate molestiae alias corporis iste, officiis omnis cumque recusandae quod quibusdam sequi nisi eos accusamus autem voluptatum, eveniet officia. Excepturi, eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus asperiores nisi corrupti blanditiis, ab porro iste eos, itaque rerum dignissimos aliquid delectus provident. Soluta, quia dolore. Dolor voluptatibus ipsum provident!</p>
+    <h2>Várias font-face no mesmo arquivo</h2>
+    <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab harum iste quo cupiditate, explicabo recusandae. Veniam optio ratione architecto enim sequi ullam fugiat beatae quae. Placeat debitis expedita consequuntur ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis officiis ex nemo dolorum nobis, deserunt, reprehenderit consectetur eos odit provident, similique ullam aut excepturi quibusdam. Nostrum quo ea quisquam non.</p>
+</body>
+</html>

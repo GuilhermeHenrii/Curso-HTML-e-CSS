@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes/Pseudo-elementos</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: lightpink;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div:hover{
+            background-color: lightblue;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .especial::after{
+            content:' !importante';
+        }
+        .especial{
+            background-color: rgb(128, 240, 128) ;
+        }
+        p::first-line{
+            text-indent: 30px;
+            background-color: lightseagreen;
+        }
+        p{         
+            text-indent: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando pseudo-classes</h1>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <h1>Usando pseudo-elementos</h1>
+    <h2>Listas de links</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/guilherme-henrique-7aab6b229/" target="_blank" class="especial">Meu linkedin</a></li>
+        <li><a href="https://github.com/GuilhermeHenrii" target="_blank" class="especial">Meu GitHub</a></li>
+        <li><a href="https://www.instagram.com/henri_guui/" target="_blank" class="especial">Meu instagram</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis explicabo modi excepturi, obcaecati reprehenderit recusandae voluptatum cupiditate ipsa rem sapiente perferendis hic magnam minus. Cupiditate repudiandae molestias sunt velit fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis debitis minus, maiores consequuntur ex cum? Culpa laudantium cupiditate, inventore similique repellendus, accusantium eos, officia suscipit assumenda enim perspiciatis aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolor nihil unde, in animi corrupti et atque adipisci est veritatis nesciunt iusto dolore corporis aspernatur cumque error. Ipsam, reprehenderit maiores?</p>
+</body>
+</html>
