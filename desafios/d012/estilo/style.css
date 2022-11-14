@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Set Header Config */
+header.header_conteiner{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+header.header_conteiner h1{
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+header.header_conteiner p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.header_conteiner p > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header.header_conteiner p > a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Set Content Config */
+main section.image_conteinerOne{
+    background-image: url("../images/background001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 2px 8px #00000056;
+}
+
+main section.image_conteinerTwo{
+    background-image: url("../images/background002.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 2px 8px #00000056;
+}
+
+main p.text_conteiner{
+    font-family: 'Sriracha', cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main section.image_conteinerOne p{
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    margin-top: 0px;
+    transform: translate(0%, -50%);
+}
+
+main section.image_conteinerTwo p{
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.178);
+    color: white;
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    margin-top: 0px;
+    transform: translate(0%, -50%);
+}
+
+
+/* Set Footer Config */
+footer.footer_conteiner{
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 14px;
+    margin-top: 50px;
+    font-style: italic;
+}
+footer.footer_conteiner a{
+    text-decoration: none;
+    color: gray;
+}
+footer.footer_conteiner a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
