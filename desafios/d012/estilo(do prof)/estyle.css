@@ -10,3 +10,76 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+/* Set Header Config */
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1{
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+
+/* Set Sections Config */
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+
+section.image{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+section.image > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+
+/* Set Footer Config */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
