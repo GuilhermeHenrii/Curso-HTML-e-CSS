@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 550px;
+            height: 550px;
+            border-collapse: collapse ;
+        }
+
+        tr.nomes{
+            background-color: rgba(60, 60, 168, 0.829);
+        }
+
+        tr.renda{
+            background-color: rgba(158, 50, 50, 0.877);
+        }
+
+        tr.despezas{
+            background-color: rgba(231, 231, 15, 0.781);
+        }
+
+        tr.investimentos{
+            background-color: rgba(26, 184, 26, 0.836);
+        }
+
+        td{
+            padding: 10px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: top; /* Alinhamento vertical*/
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira tabela</h1>
+    <!-- Hierarquia de tabelas (simples):
+    <table> = tabela
+        table row (<tr>) = linha da tabeka
+            table header (<td>) = cabeçalho de tabela
+            table data = dado da tabela
+    -->
+    <table>
+        <tr class="nomes">
+            <td>Nomes</td>
+            <td>Emily</td>
+            <td>João</td>
+            <td>Ana</td>
+        </tr>
+        <tr class="renda">
+            <td>Renda</td>
+            <td>R$ 1200,00</td>
+            <td>R$ 1800,00</td>
+            <td>R$ 1550,00</td>
+        </tr>
+        <tr class="despezas">
+            <td>Despezas</td>
+            <td>R$ 600,00</td>
+            <td>R$ 700,00</td>
+            <td>R$ 900,00</td>
+        </tr>
+        <tr class="investimentos">
+            <td>Investimentos</td>
+            <td>R$ 200,00</td>
+            <td>R$ 500,00</td>
+            <td>R$ 200,00</td>
+        </tr>
+    </table>
+</body>
+</html>
