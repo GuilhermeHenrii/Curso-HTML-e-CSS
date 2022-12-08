@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+
+        td,th{
+            border: 1px solid black;
+            height: 30px;
+            padding: 10px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <caption>Tabela qualquer</caption>
+        <tbody>
+            <thead>
+                <tr>
+                    <th scope="col">titulo 1</th>
+                    <th scope="col">titulo 2</th>
+                    <th scope="col">titulo 3</th>
+                    <th scope="col">titulo 4</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="2" rowspan="3">A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td colspan="2">E</td>
+            </tr>
+            <tr>
+                <td rowspan="2">G</td>
+                <td rowspan="3" colspan="3">H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td colspan="3">J</td>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td>10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">resultado</th>
+                <td colspan="2">155320</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../image/fundo.jpg);
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* table configs */
+table{
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+
+
+table td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+table td.num{
+    text-align: right;
+}
+
+
+table td.color-porcent{
+    color: green;
+}
+
+
+/* caption configs */
+caption{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* table header configs */
+thead tr th{
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color:white;
+    position: sticky;
+    top: -1px;
+}
+
+
+/* table body configs */
+tbody tr td{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+    color: red;
+}
+
+
+tbody tr:nth-child(even){
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* table footer configs */
+tfoot{
+    background-color: rgb(56, 56, 56);
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    color:white;
+}

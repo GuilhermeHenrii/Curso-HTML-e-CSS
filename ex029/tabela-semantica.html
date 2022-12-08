@@ -4,9 +4,261 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas semânticas</title>
+    <title>Tabelas grandes com semantica</title>
+    <link rel="stylesheet" href="./estilo/tabela.css">
 </head>
 <body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia para tabelas grandes 
+    <table>
+        <caption>
+        <thead>
+            tr, td, th
+        <tbody>
+            tr, td, th
+        <tfoot> 
+            tr, td, th 
+    </table>
+    -->
     
+    <table>
+        <caption>Comparativo da população por estados(2012-2021)</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col">População (2021)</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% da população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td 6>1</td>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+                <td class="num">46 649 132</td>
+                <td class="color-porcent">+13.05%</td>
+                <td style="width:100px ;">21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 016 906</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr >
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Goiás</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Maranhão</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Amazonas</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Espírito Santo</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Paraíba</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Mato Grosso</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Rio Grande do Norte</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Alagoas</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Piauí</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Distrito federal</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Mato Grosso do Sul</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Sergipe</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Rondônia</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Tocantins</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Acre</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Amapá</td>
+                <td>10 444 526</td>
+                <td>11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Roraima</td>
+                <td>10 444 526</td>
+                <td class="num">11 466 630</td>
+                <td class="color-porcent">+17.44%</td>
+                <td>5,4%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Número total de habitantes por Estado</td>
+                <td><strong>150 550 790</strong></td>
+                <td><strong>190 890 600</strong></td>
+                <td colspan="2"></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
