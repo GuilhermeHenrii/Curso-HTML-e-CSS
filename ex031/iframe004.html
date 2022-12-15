@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,
+    initial-scale=1.0">
+    <title>Iframe com srcdoc</title>
+    <style>
+        iframe{
+            display: block;
+            width: 500px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="./paginas-exemplo/pag01.html" target="irf">outro iframe</a>
+    <iframe srcdoc="<h1>Título do iframe</h1><br><h2>subtitulo do iframe</h2> <p>Um paragrafo qualquer</p>" class="ifr" name="irf" sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
+</body>
+</html>
