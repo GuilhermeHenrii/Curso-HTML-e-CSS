@@ -1,1 +1,0 @@
-'Arquivos enviados com sucesso!'
