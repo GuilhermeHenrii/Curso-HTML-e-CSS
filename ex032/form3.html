@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            background-color: lightcoral;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        input{
+            display: block;
+        }
+
+        fieldset{
+            border: 2px solid black;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="script.js" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel-country-code" required pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados do cartão</legend>
+            <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" autocomplete="current-password" required>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
