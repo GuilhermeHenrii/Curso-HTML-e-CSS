@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+       form{
+        background-color: lightblue;
+        padding: 10px;
+        width: 300px;
+        border-radius: 10px;
+       }
+
+       input{
+        display: block;
+        margin-bottom: 30px;
+       }
+
+    </style>
+</head>
+<body>
+    <form action="script.js" method="get" autocomplete="on">
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" required maxlength="20" minlength="2" placeholder="nome" autocomplete="name">
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="8" placeholder="senha" autocomplete="current-password">
+        <label for="inumero">Número:</label>
+        <input type="number" name="numero" id="inumero" step="0.1" value="0.1">
+        <label for="idata">Data:</label>
+        <input type="date" name="data" id="idata" value="2002-05-14" required>
+        <label for="itime">Horas:</label>
+        <input type="time" name="time" id="itime" value="19:00">
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
