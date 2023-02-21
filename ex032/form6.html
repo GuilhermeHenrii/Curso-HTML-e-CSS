@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de form</title>
+</head>
+<body>
+    <form action="post">
+        <h1>Exemplo de formulário</h1>
+
+        <label for="">Estado</label>
+        <select name="nestado" id="iestado">
+            <optgroup label="Região sudeste">
+                <option value="SP">São paulo</option>
+                <option value="RJ" selected>Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </oppgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="PE">Pernambuco</option>
+                <option value="MA">Maranhão</option>
+                <option value="RN">Rio Grande Do Norte</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="itxt">Tecnologias:</label>
+            <input type="text" name="ntxt" id="itxt" list="teclist">
+            <datalist id="teclist">
+                <option value="">Css</option>
+                <option value="">JavaScript</option>
+                <option value="">Sql</option>
+                <option value="">Html</option>
+                <option value="">TypeScript</option>
+            </datalist>
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
