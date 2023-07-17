@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Menu</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Media Queries -->
     <link rel="stylesheet" href="estilos/mobile-first.css" media="all">
@@ -14,9 +15,10 @@
 </head>
 
 <body>
-    <header>
+    <header class="MenuHeader">
         <h1>Meu site</h1>
-        <menu>
+        <span id="burguer" class="material-icons">menu</span>
+        <menu class="dynamic-menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -58,6 +60,8 @@
             </p>
         </article>
     </main>
+
+    <script src="./script/main.js"></script>
 </body>
 
 </html>
