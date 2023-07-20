@@ -7,6 +7,8 @@
     <title>Login responsivo</title>
     <link rel="stylesheet" href="styles/estile.css" media="all">
     <link rel="stylesheet" href="style/mediaqueries.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -14,18 +16,32 @@
         <section class="image">
             <img src="./images/imagem-login.jpg" alt="imeagem de um carro antigo" class="car-image">
         </section>
-        <form action="#" class="form">
+        
+        <form action="#" class="form" autocomplete="off">
             <h1>Login</h1>
             <p>
                 Seja bem-vindo(a) novamente. Faça loggin para acessar sua conta e poder fazer as configurações no seu
                 ambiente.
             </p>
 
-            <input type="text" id="email" placeholder="seu e-mail">
-            <input type="text" id="password" placeholder="sua senha">
+            <div class="field">
 
-            <input type="button" value="Entrar">
-            <input type="button" value="Esqueci a senha">
+                <span class="material-icons">person</span>
+                <input type="text" id="email" placeholder="seu e-mail" autocomplete="email" maxlength="30" required>
+
+            </div>
+
+            <div class="field">
+
+                <span class="material-icons">key</span>
+                <input type="text" id="password" placeholder="sua senha" autocomplete="current-password" minlength="8" maxlength="15" equired>
+            </div>
+
+            <input type="submit" value="Entrar">
+            <a href="esqueci.html" class="botao">
+                Esqueci a senha
+                <span class="material-icons">mail</span>
+            </a>
         </form>
     </main>
 </body>

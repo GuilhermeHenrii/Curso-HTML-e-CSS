@@ -20,26 +20,42 @@
         width: 50%;
         height: 100%;
     }
+
+    form > h1{
+        font-size: 1.6em;
+    }
+
+    form > p{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px){
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
-        
+
     }
     main{
         width: 950px;
     }
 
     section.image{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     form{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+
+    form > h1{
+        font-size: 2em;
+    }
+
+    form > p{
+        font-size: 1.2em;
     }
 }
