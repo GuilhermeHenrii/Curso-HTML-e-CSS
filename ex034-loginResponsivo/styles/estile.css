@@ -36,7 +36,7 @@ main{
     width: 250px;
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0 0 0 0.63);
-    transition: width 0.3s, height 0.3s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
