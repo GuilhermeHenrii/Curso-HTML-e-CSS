@@ -70,9 +70,10 @@ input{
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px;
-    background-color: #94CFCD;
+    background-color: #94cdcf;
+    font-size: 1em;
 }
 
 form > input[type=submit]{
@@ -97,10 +98,19 @@ div.field{
     margin: 5px 0px;
     border-radius: 10px;
     align-items: center;
-    padding: 5px;
+    padding: 3px;
     height: 45px;
 }
 
+div.field > input:focus{
+    background-color: white;
+    border: none;
+}
+
+div.field > span{
+    padding: 5px;
+    color: white;
+}
 
 form > a.botao{
    display: block;
