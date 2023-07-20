@@ -102,7 +102,7 @@ div.field{
     height: 45px;
 }
 
-div.field > input:focus{
+div.field > input:focus-within{
     background-color: white;
     border: none;
 }
